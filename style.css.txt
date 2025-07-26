@@ -1,0 +1,198 @@
+/* General Body & Typography */
+body {
+    background-color: #141414;
+    color: #ffffff;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #e50914;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f40612;
+}
+
+/* --- Navigation Bar --- */
+.navbar {
+    background-color: #141414;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #222;
+}
+
+.navbar .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #e50914;
+}
+
+.navbar .nav-links a {
+    color: #fff;
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+.navbar .nav-links a:hover {
+    color: #b3b3b3;
+}
+
+/* --- Main Container & Hero Section --- */
+.container {
+    padding: 20px 50px;
+}
+
+.hero-section {
+    height: 60vh;
+    background-image: url('https://via.placeholder.com/1500x500/000000/FFFFFF?text=RECENT'); /* Replace with your banner image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero-section h1 {
+    font-size: 3.5em;
+    margin: 0;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.hero-section p {
+    font-size: 1.4em;
+    margin-top: 10px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+/* --- Content Rows (Netflix Style) --- */
+.content-row {
+    margin-bottom: 40px;
+}
+
+.content-row h2 {
+    font-size: 1.6em;
+    margin-bottom: 15px;
+}
+
+.posters-wrapper {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 15px; /* For scrollbar */
+}
+
+/* Hide scrollbar for a cleaner look */
+.posters-wrapper::-webkit-scrollbar {
+    display: none;
+}
+.posters-wrapper {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.poster {
+    flex: 0 0 auto;
+    width: 180px;
+    margin-right: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.poster img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.poster:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* --- Series Page --- */
+.series-banner {
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    padding: 40px;
+}
+
+.series-banner h1 {
+    font-size: 4em;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
+}
+
+.episode-guide {
+    margin-top: 30px;
+}
+
+.episode-item {
+    background-color: #1f1f1f;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.episode-info h3 {
+    margin: 0 0 5px 0;
+}
+
+.episode-info p {
+    margin: 0;
+    color: #b3b3b3;
+    max-width: 80%;
+}
+
+/* --- Buttons --- */
+.btn {
+    background-color: #e50914;
+    color: #fff;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: #f40612;
+}
+
+/* --- Patreon & About Page --- */
+.page-header {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.page-header h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.page-header p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+    line-height: 1.6;
+}
+
+/* --- Footer --- */
+.footer {
+    text-align: center;
+    padding: 40px 20px;
+    border-top: 1px solid #222;
+    margin-top: 50px;
+    color: #808080;
+}

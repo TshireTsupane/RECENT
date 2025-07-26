@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RECENT - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">RECENT</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="patreon.html">Patreon</a>
+        </div>
+    </nav>
+
+    <header class="hero-section">
+        <h1>RECENT</h1>
+        <p>Where local meets international</p>
+    </header>
+
+    <main class="container">
+        <!-- Row 1: New Releases -->
+        <section class="content-row">
+            <h2>New Releases</h2>
+            <div class="posters-wrapper">
+                <!-- Link to your series page -->
+                <a href="series-page-chronicles-of-love.html" class="poster">
+                    <img src="https://via.placeholder.com/180x270/E50914/FFFFFF?text=The+Chronicles+of+Love" alt="The Chronicles of Love Poster">
+                </a>
+                <!-- Add more posters here for future shows -->
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 RECENT. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

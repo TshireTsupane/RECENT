@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patreon - RECENT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">RECENT</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="patreon.html">Patreon</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section class="page-header">
+            <h1>Get Early Access to Everything</h1>
+            <p>
+                Support our network on Patreon to get early access to new episodes from all our series, exclusive behind-the-scenes content, and join our creator community. Your support directly funds the creation of these shows.
+            </p>
+            <!-- This link now correctly points to your Patreon page -->
+            <a href="https://www.patreon.com/RecordedEntertainment" target="_blank" class="btn">Become a Patron</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 RECENT. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
